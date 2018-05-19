@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>Kurenai's Portfolio</title>
+    <meta name="description" content="Kurenaiのポートフォリオサイトです。">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/stylesabout.css">
+    <link rel="stylesheet" href="css\discography.css">
+    <link rel="stylesheet" href="css\works.css">
+    <link href="jquery.horizonScroll.js-master\css\slidestylediscography.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.horizonScroll.js-master\jquery.touchSwipe.js"></script>
+    <script type="text/javascript" src="jquery.horizonScroll.js-master\jquery.horizonScroll.js"></script>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">
+              HOME
+            </a>
+          </li>
+          <li>
+            <a href="about.html">
+              ABOUT
+            </a>
+          </li>
+          <li>
+            <a href="movie.html">
+              MOVIE
+            </a>
+          </li>
+          <li>
+            <a href="discography.html">
+              DISCOGRAPHY
+            </a>
+          </li>
+          <li>
+            <a href="works.html" class="current">
+              WORKS
+            </a>
+          </li>
+          <!-- <li>
+            <a href="contact.html">
+              CONTACT
+            </a>
+          </li> -->
+        </ul>
+      </nav>
+    </header>
+    <!-- main -->
+    <div class="horizon-prev"><img src="jquery.horizonScroll.js-master\images\l-arrow.png"></div>
+    <div class="horizon-next"><img src="jquery.horizonScroll.js-master\images\r-arrow.png"></div>
+
+    <section data-role="section" id="section-section1">
+      <div class="main">
+        <div class="main--boxArea">
+          <div class="main--leftBox--text">
+            <div class="main--leftBox--text--2">
+              <h1>優月心菜</h1>
+              <p>「ぬけがら」収録</p>
+              <p>「ぬけがら」</p>
+              <p>＜担当＞ギターアレンジ、レコーディング</p>
+              <p>　</p>
+              <p>■楽曲配信ページ</p>
+              <a href="https://www.tunecore.co.jp/artist?id=203918" target="_blank">
+                <p>-https://www.tunecore.co.jp/artist?id=203918</p>
+              </a>
+            </div>
+          </div>
+          <div class="main--rightBox--jacket">
+            <div class="main--rightBox--jacket--1">
+              <img src="photo\nukegara.JPG" class="jacket1">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section data-role="section" id="section-section2">
+      <div class="main">
+        <div class="main--boxArea">
+          <div class="main--leftBox--text">
+            <div class="main--leftBox--text--2">
+              <h1>囲碁健康体操</h1>
+              <p>「Igo Bass Live」用楽曲</p>
+              <p>「Breaking!」「Fusion LaBo」「Slow up」</p>
+              <p>＜担当＞作曲・編曲（上記3曲）</p>
+            </div>
+          </div>
+          <div class="main--rightBox--jacket">
+            <div class="main--rightBox--jacket--1">
+              <img src="photo\igokenkoutaisou.jpg" class="jacket1">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section data-role="section" id="section-section3">
+      <div class="main">
+        <div class="main--boxArea">
+          <div class="main--leftBox--text">
+            <div class="main--leftBox--text--2">
+              <h1>ひこまろ</h1>
+              <p>「ホラガイ」収録</p>
+              <p>「せかい」</p>
+              <p>＜担当＞ギターソロ</p>
+              <p>　</p>
+              <p>■視聴用ページ</p>
+              <a href="http://www.nicovideo.jp/watch/sm30610487" target="_blank">
+                <p>http://www.nicovideo.jp/watch/sm30610487</p>
+              </a>
+            </div>
+          </div>
+          <div class="main--rightBox--jacket">
+            <div class="main--rightBox--jacket--1">
+              <img src="photo\horagai.jpg" class="jacket2">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section data-role="section" id="section-section4">
+      <div class="main">
+        <div class="main--boxArea">
+          <div class="main--leftBox--text">
+            <div class="main--leftBox--text--2">
+              <h1>WHITEFISTS</h1>
+              <p>「Nataria:Code」収録</p>
+              <p>「World Requiem」</p>
+              <p>＜担当＞ギターソロ</p>
+              <p>　</p>
+              <p>■視聴用ページ</p>
+              <a href="https://soundcloud.com/whitefists/world-requiem" target="_blank">
+                <p>https://soundcloud.com/whitefists/world-requiem</p>
+              </a>
+            </div>
+          </div>
+          <div class="main--rightBox--jacket">
+            <div class="main--rightBox--jacket--1">
+              <img src="photo\natariacode.png" class="jacket2">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script type="text/javascript">
+    $(function () {
+    	$('section').horizon();
+    });
+    </script>
+    <!-- footer -->
+    <footer>
+      <a href="https://twitter.com/kurenai1496" target="_blank">
+        <img src=icon\twitter2.png width=20 alt="ツイッターへ">
+      </a>
+      <a href="mailto:nico.kurenai@gmail.com" target="_blank">
+        <img src=icon\mail.png width=20 alt="メール送信">
+      </a>
+      <a href="https://www.youtube.com/channel/UCxlAoJglz1U38HFu2UY3AHg?view_as=subscriber" target="_blank">
+        <img src=icon\Youtube.png width=20 alt="Youtubeへ">
+      </a>
+      <p>Copyright(c) Kurenai</p>
+    </footer>
+  </body>

@@ -1,0 +1,68 @@
+.main{
+  background-image: url("../photo/back2.png");
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 80vh;
+  margin: 10vh 0;
+  color: #000;
+}
+
+.main::after{
+  clear: both;
+  content: "";
+  display: none;
+}
+
+.main h1{
+  font-family: fantasy;
+  font-size: 10vh;
+}
+
+.main p{
+  font-weight: bold;
+  font-size: 2vh;
+}
+
+.main--boxArea {
+  width: 100vw;
+  height: 80vh;
+}
+
+.main--leftBox {
+  width: 50vw;
+  float: left;
+  margin: 25vh 0;
+}
+
+.main--leftBox--body {
+  margin-left: 15vw;
+  text-align: left;
+}
+
+.main--rightBox {
+  width: 50vw;
+  float: right;
+  margin: 25vh 0;
+}
+
+.main--rightBox--body {
+  margin-right: 15vw;
+  text-align: right;
+}
+.icon{
+  border-radius: 50%;
+  border: 5px solid brack;
+  box-shadow: 0 0 15px brack;
+  height: 30vh;
+}
+
+.main a{
+  text-decoration: none;
+  color: #000;
+}
+
+.main a:hover{
+  color: royalblue;
+}

@@ -1,0 +1,36 @@
+.jacket{
+  width: 35vw;
+  height: 60vh;
+}
+
+.jacket1{
+  width: 35vw;
+  height: 40vh;
+  padding-top: 10vh;
+}
+
+.jacket2{
+  width: 25vw;
+  height: 40vh;
+  padding-top: 10vh;
+  float: right;
+}
+
+.main--rightBox--jacket{
+  width: 50vw;
+  float: right;
+  margin: 10vh 0;
+}
+.main--rightBox--jacket--1{
+  margin-right: 15vw;
+}
+.main--leftBox--text {
+  width: 50vw;
+  float: left;
+  margin: 10vh 0;
+}
+
+.main--leftBox--text--1 {
+  margin-left: 15vw;
+  text-align: left;
+}

@@ -1,0 +1,13 @@
+.main--movie{
+  text-align: center;
+  padding: 10vh 0;
+}
+
+.main--movie > p{
+  font-size: 2.5vh;
+}
+
+.movie1{
+  width: 35vw;
+  height: 30vh;
+}
