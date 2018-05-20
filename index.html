@@ -7,11 +7,9 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="fakeLoader.js-master\fakeLoader.css">
     <script type="text/javascript" src="javascript\index.js"></script>
-    <script src="fakeLoader.js-master\fakeLoader.min.js"></script>
-    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <style type="text/css">
       .main{
-        background-image: url("photo/back3.png");
+        background-image: url("photo/back2.png");
         background-repeat: no-repeat;
         background-size: cover;
         width: 100vw;
@@ -22,6 +20,18 @@
   </head>
   <body>
     <div id="fakeLoader"></div>
+
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="fakeLoader.js-master\fakeLoader.min.js"></script>
+    <script>
+        $("#fakeLoader").fakeLoader({
+          timeToHide:3000, //Time in milliseconds for fakeLoader disappear
+          zIndex:999, // Default zIndex
+          spinner:"spinner2",//Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7'
+          bgColor:"#000", //Hex, RGB or RGBA colors
+          // imagePath:"yourPath/customizedImage.gif" //If you want can you insert your custom image
+        });
+    </script>
     <!-- Header -->
     <header>
       <nav>
