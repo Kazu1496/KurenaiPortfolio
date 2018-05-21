@@ -22,12 +22,26 @@
 
 .main p{
   font-weight: bold;
-  font-size: 2vh;
+  font-size: 2.2vh;
 }
 
 .main--boxArea {
   width: 100vw;
   height: 80vh;
+}
+
+.main--boxArea--about{
+    text-align: center;
+    padding: 2vh 0;
+}
+
+.main--boxArea--about > h1{
+  font-family: 'Passion One', cursive;
+  font-size: 8vh;
+}
+
+#text{
+    margin: 0 25vw;
 }
 
 .main--leftBox {
@@ -55,7 +69,7 @@
   border-radius: 50%;
   border: 5px solid brack;
   box-shadow: 0 0 15px brack;
-  height: 30vh;
+  height: 20vh;
 }
 
 .main a{
