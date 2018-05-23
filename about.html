@@ -9,68 +9,60 @@
     <link rel="mask-icon" href="favicon\safari-pinned-tab.svg" color="#5bbad5">
 
     <link rel="stylesheet" href="css/smartphone.css" media="screen and (max-width:750px)">
-    <link rel="stylesheet" href="css/smartphone-about.css" media="screen and (max-width:750px)">
+    <link rel="stylesheet" href="css/smartphone-about.css" media="screen and (max-width:750px)">
+    <link rel="stylesheet" href="css/styles.css" media="screen and (min-width:751px)">
+    <link rel="stylesheet" href="css/stylesabout.css" media="screen and (min-width:751px)">
 
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <title>Kurenai's Portfolio</title>
     <meta name="description" content="Kurenaiのポートフォリオサイトです。">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css\stylesabout.css">
     <link rel="stylesheet" href="fakeLoader.js-master\fakeLoader.css">
-    <script type="text/javascript" src="javascript\index.js"></script>
   </head>
   <body>
     <div id="fakeLoader"></div>
-
-    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="fakeLoader.js-master\fakeLoader.min.js"></script>
-    <script>
-        $("#fakeLoader").fakeLoader({
-          timeToHide:3000, //Time in milliseconds for fakeLoader disappear
-          zIndex:999, // Default zIndex
-          spinner:"spinner2",//Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7'
-          bgColor:"#000", //Hex, RGB or RGBA colors
-          // imagePath:"yourPath/customizedImage.gif" //If you want can you insert your custom image
-        });
-    </script>
     <!-- header -->
-      <header>
-        <nav>
-          <ul>
-            <li>
-              <a href="/">
-                HOME
-              </a>
-            </li>
-            <li>
-              <a href="about" class="current">
-                ABOUT
-              </a>
-            </li>
-            <li>
-              <a href="movie">
-                MOVIE
-              </a>
-            </li>
-            <li>
-              <a href="discography">
-                DISCOGRAPHY
-              </a>
-            </li>
-            <li>
-              <a href="works">
-                WORKS
-              </a>
-            </li>
-            <!-- <li>
-              <a href="contact">
-                CONTACT
-              </a>
-            </li> -->
-          </ul>
-        </nav>
-      </header>
+    <header>
+      <nav class="menu clearfix">
+        <div class="menu1"></div>
+        <div class="menu2"></div>
+        <div class="menu3"></div>
+      </nav>
+      <div>
+        <ul id="menu">
+          <li>
+            <a href="/">
+              HOME
+            </a>
+          </li>
+          <li>
+            <a href="about" class="current">
+              ABOUT
+            </a>
+          </li>
+          <li>
+            <a href="movie">
+              MOVIE
+            </a>
+          </li>
+          <li>
+            <a href="discography">
+              DISCOGRAPHY
+            </a>
+          </li>
+          <li>
+            <a href="works">
+              WORKS
+            </a>
+          </li>
+          <!-- <li>
+            <a href="contact">
+              CONTACT
+            </a>
+          </li> -->
+        </ul>
+      </div>
+    </header>
 
       <!-- main -->
       <div class="main">
@@ -107,4 +99,17 @@
         </a>
         <p>Copyright(c) Kurenai</p>
       </footer>
+      <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script type="text/javascript" src="javascript\menu.js" media="screen and (max-width:750px)"></script>
+      <script type="text/javascript" src="javascript\index.js"></script>
+      <script src="fakeLoader.js-master\fakeLoader.min.js"></script>
+      <script>
+          $("#fakeLoader").fakeLoader({
+            timeToHide:3000, //Time in milliseconds for fakeLoader disappear
+            zIndex:999, // Default zIndex
+            spinner:"spinner2",//Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7'
+            bgColor:"#000", //Hex, RGB or RGBA colors
+            // imagePath:"yourPath/customizedImage.gif" //If you want can you insert your custom image
+          });
+      </script>
   </body>

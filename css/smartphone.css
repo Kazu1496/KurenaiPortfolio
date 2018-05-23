@@ -1,5 +1,54 @@
 @import url('https://fonts.googleapis.com/css?family=Passion+One');
 
+nav.menu			{ width:25px; height:30px; top: 10px; right:10px; position:fixed; cursor:pointer; overflow:hidden; z-index:10000; }
+nav .menu1			{ width:25px; height:2px; background-color: #fff; top:0px; position:absolute; }
+nav .menu2			{ width:25px; height:2px; background-color: #fff; top:8px; position:absolute; }
+nav .menu3			{ width:25px; height:2px; background-color: #fff; top:16px; position:absolute; }
+
+nav .menu1,nav .menu2,nav .menu3
+					{ transition: all 0.5s ease-out; -o-transition: all 0.5s ease-out; /* Opera */ -moz-transition: all 0.5s ease-out; /* Firefox */
+					 -webkit-transition: all 0.5s ease-out; /* GoogleChrome, Safari */ -ms-transition: all 0.5s ease-out; /* IE */ }
+
+nav .menuclick1		{ top:8px; -o-transform: rotate(405deg); -moz-transform: rotate(405deg); -webkit-transform: rotate(405deg);
+				 	-ms-transform: rotate(405deg); transform: rotate(405deg); }
+nav .menuclick2		{ background-color:rgba(255,255,255,0);  }
+nav .menuclick3		{ top:8px; -o-transform: rotate(-405deg); -moz-transform: rotate(-405deg);
+					-webkit-transform: rotate(-405deg); -ms-transform: rotate(-405deg); transform: rotate(-405deg); }
+
+#menu{
+position: fixed;
+font-weight: bold;
+display: none;
+left: 0;
+top: 0;
+width: 100vw;
+list-style-type: none;
+background-color: rgba(0, 0, 0, 30);
+padding: 20px 20px 0px 20px;
+z-index: 9999;
+}
+
+#menu li{
+  height: calc(100vh/5);
+  margin: 1.3vh 0;
+  font-size: 40px;
+  font-family: 'Passion One', cursive;
+}
+
+header li > a{
+  text-decoration: none;
+  color: #bbb;
+  font-weight: bold;
+}
+
+header li > a:hover{
+  color: royalblue;
+}
+
+.current {
+  color: royalblue;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -20,41 +69,13 @@ header {
   height: 30px;
   padding: 10px 0;
   background-color: black;
+  z-index: 9999;
 }
 
 header ul{
   height: 100%;
   width: 100%;
   text-align: center;
-}
-
-ul{
-  margin: 0px;
-  list-style-type: none;
-  padding-left: 0;
-
-}
-
-li{
-  display: inline-block;
-  padding: 0 20px;
-  font-size: 20px;
-  font-family: 'Passion One', cursive;
-  line-height: 30px;
-}
-
-header li > a{
-  text-decoration: none;
-  color: #bbb;
-  font-weight: bold;
-}
-
-header li > a:hover{
-  color: royalblue;
-}
-
-.current {
-  color: royalblue;
 }
 
 footer{
