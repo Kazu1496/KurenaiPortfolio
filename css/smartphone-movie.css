@@ -1,0 +1,35 @@
+.main{
+  background-image: url("../photo/back1.png");
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 80vh;
+  margin: 10vh 0;
+  color: #000;
+}
+
+.main::after{
+  clear: both;
+  content: "";
+  display: none;
+}
+
+.main h1{
+  font-family: 'Passion One', cursive;
+  font-size: 8vh;
+}
+
+.main--movie{
+  text-align: center;
+  padding: 10vh 0;
+}
+
+.main--movie > p{
+  font-size: 2.2vh;
+}
+
+.movie1{
+  width: 80vw;
+  height: 30vh;
+}

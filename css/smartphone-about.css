@@ -22,7 +22,7 @@
 
 .main p{
   font-weight: bold;
-  font-size: 2.2vh;
+  font-size: 1.75vh;
 }
 
 .main--boxArea {
@@ -44,27 +44,6 @@
     margin: 0 25vw;
 }
 
-.main--leftBox {
-  width: 50vw;
-  float: left;
-  margin: 25vh 0;
-}
-
-.main--leftBox--body {
-  margin-left: 15vw;
-  text-align: left;
-}
-
-.main--rightBox {
-  width: 50vw;
-  float: right;
-  margin: 25vh 0;
-}
-
-.main--rightBox--body {
-  margin-right: 15vw;
-  text-align: right;
-}
 .icon{
   border-radius: 50%;
   border: 5px solid brack;
