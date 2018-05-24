@@ -1,6 +1,6 @@
 .main{
   background-image: url("../photo/back1.png");
-  background-repeat: repeat-y;
+  background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   width: 100vw;
@@ -17,19 +17,20 @@
 
 .main h1{
   font-family: 'Passion One', cursive;
-  font-size: 8vh;
+  font-size: 6.5vh;
 }
 
 .main--movie{
   text-align: center;
-  padding: 10vh 0;
+  padding: 15vh 0;
 }
 
 .main--movie > p{
   font-size: 2.2vh;
+  font-weight: bold;
 }
 
 .movie1{
-  width: 80vw;
+  width: 70vw;
   height: 30vh;
 }

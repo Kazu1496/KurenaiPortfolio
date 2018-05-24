@@ -24,7 +24,6 @@ top: 0;
 width: 100vw;
 list-style-type: none;
 background-color: rgba(0, 0, 0, 30);
-padding: 20px 20px 0px 20px;
 z-index: 9999;
 }
 
@@ -33,6 +32,7 @@ z-index: 9999;
   margin: 1.3vh 0;
   font-size: 40px;
   font-family: 'Passion One', cursive;
+  text-align: center;
 }
 
 header li > a{

@@ -2,6 +2,11 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="Kurenaiのポートフォリオサイトです。">
+
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
@@ -14,31 +19,21 @@
     <link rel="stylesheet" href="css/stylesabout.css" media="screen and (min-width:751px)">
     <link rel="stylesheet" href="css/stylesmovie.css" media="screen and (min-width:751px)">
 
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
     <title>Kurenai's Portfolio</title>
-    <meta name="description" content="Kurenaiのポートフォリオサイトです。">
     <link href="jquery.horizonScroll.js-master/css/slidestyle.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="fakeLoader.js-master/fakeLoader.css">    <link rel="stylesheet" href="fakeLoader.js-master/fakeLoader.css">
   </head>
   <body>
     <div id="fakeLoader"></div>
-
-    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="fakeLoader.js-master/fakeLoader.min.js"></script>
-    <script>
-        $("#fakeLoader").fakeLoader({
-          timeToHide:3000, //Time in milliseconds for fakeLoader disappear
-          zIndex:999, // Default zIndex
-          spinner:"spinner2",//Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7'
-          bgColor:"#000", //Hex, RGB or RGBA colors
-          // imagePath:"yourPath/customizedImage.gif" //If you want can you insert your custom image
-        });
-    </script>
     <!-- header -->
     <header>
-      <nav>
-        <ul>
+      <nav class="menu clearfix">
+        <div class="menu1"></div>
+        <div class="menu2"></div>
+        <div class="menu3"></div>
+      </nav>
+      <div>
+        <ul id="menu">
           <li>
             <a href="/">
               HOME
@@ -70,11 +65,12 @@
             </a>
           </li> -->
         </ul>
-      </nav>
+      </div>
     </header>
+
     <!-- main -->
-    <div class="horizon-prev"><img src="jquery.horizonScroll.js-master/images/l-arrow.png"></div>
-    <div class="horizon-next"><img src="jquery.horizonScroll.js-master/images/r-arrow.png"></div>
+    <div class="horizon-prev"><img src="jquery.horizonScroll.js-master/images/l-arrow.png" height="30px"></div>
+    <div class="horizon-next"><img src="jquery.horizonScroll.js-master/images/r-arrow.png" height="30px"></div>
 
     <section data-role="section" id="section-section1">
       <div class="main">
@@ -102,9 +98,9 @@
       <section data-role="section" id="section-section3">
         <div class="main">
           <div class="main--movie">
-            <h1>G5 Cover Project 2016</h1>
+            <h1>G5 Cover Project</h1>
             <p><iframe src="https://www.youtube.com/embed/ekjw3jCqzOw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="movie1"></iframe></p>
-            <p>《G5 Cover Project 2016 エントリー作品No1》</p>
+            <p>《G5CoverProject2016 エントリー作品No1》</p>
             <p>現WhileTrue:メンバー７人でカバーしました。</p>
             <p>《Best G5 Cover》を受賞致しました。</p>
           </div>
@@ -114,11 +110,11 @@
       <section data-role="section" id="section-section4">
         <div class="main">
           <div class="main--movie">
-            <h1>G5 Cover Project 2016</h1>
+            <h1>G5 Cover Project</h1>
             <p><iframe src="https://www.youtube.com/embed/ZHMUvE6z5A4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="movie1"></iframe></p>
-            <p>《G5 Cover Project 2016 エントリー作品No2》</p>
-            <p>takajii様作編曲のOutburstにて参加させて頂きました。</p>
-            <p>《5th Place G5 Cover》を受賞致しました。</p>
+            <p>《G5CoverProject2016 エントリー作品No2》</p>
+            <p>takajii様作編曲のOutburstにて参加しました。</p>
+            <p>《5th Place G5 Cover》を受賞しました。</p>
           </div>
         </div>
       </section>
@@ -126,10 +122,10 @@
       <section data-role="section" id="section-section5">
         <div class="main">
           <div class="main--movie">
-            <h1>Kiesel Guitar Solo Contest 2017</h1>
+            <h1>Kiesel Guitar Contest</h1>
             <p><iframe src="https://www.youtube.com/embed/XTcubB2n4Sg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="movie1"></iframe></p>
-            <p>《Kiesel Guitar Solo Contest 2017 エントリー作品》</p>
-            <p>2016年に開催された同コンテストと同じく《TOP30》に選出されました。</p>
+            <p>《KieselGuitarSoloContest2017 エントリー作品》</p>
+            <p>2016年と同様、《TOP30》に選出されました。</p>
           </div>
         </div>
       </section>
@@ -137,10 +133,10 @@
       <section data-role="section" id="section-section6">
         <div class="main">
           <div class="main--movie">
-            <h1>Kiesel Guitar Solo Contest 2016</h1>
+            <h1>Kiesel Guitar Contest</h1>
             <p><iframe src="https://www.youtube.com/embed/BWuj6VGgIaI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="movie1"></iframe></p>
-            <p>《Kiesel Guitar Solo Contest 2016 エントリー作品》</p>
-            <p>世界中から多くのエントリーがある中、《TOP30》に選出されました。</p>
+            <p>《KieselGuitarSoloContest2016 エントリー作品》</p>
+            <p>世界中から多くのエントリーがある中《TOP30》に選出されました。</p>
           </div>
         </div>
       </section>
@@ -151,20 +147,11 @@
             <h1>PLAY LIKE G.O.D.111</h1>
             <p><iframe src="https://www.youtube.com/embed/DWTAJgSbmn8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="movie1"></iframe></p>
             <p>《PLAY LIKE G.O.D.111 エントリー作品》</p>
-            <p>ボーグ様作編曲のnightscapeにて参加させて頂きました。</p>
-            <p>《Play like G.O.D.111 Runners up》を受賞致しました。</p>
+            <p>ボーグ様作編曲のnightscapeにて参加しました。</p>
+            <p>《PlaylikeG.O.D.111RunnersUp》を受賞しました。</p>
           </div>
         </div>
       </section>
-
-      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-      <script type="text/javascript" src="jquery.horizonScroll.js-master/jquery.touchSwipe.js"></script>
-      <script type="text/javascript" src="jquery.horizonScroll.js-master/jquery.horizonScroll.js"></script>
-      <script type="text/javascript">
-      $(function () {
-      	$('section').horizon();
-      });
-      </script>
     <!-- footer -->
     <footer>
       <a href="https://twitter.com/kurenai1496" target="_blank">
@@ -178,4 +165,23 @@
       </a>
       <p>Copyright(c) Kurenai</p>
     </footer>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascript\menu.js" media="screen and (max-width:750px)"></script>
+    <script type="text/javascript" src="jquery.horizonScroll.js-master/jquery.touchSwipe.js"></script>
+    <script type="text/javascript" src="jquery.horizonScroll.js-master/jquery.horizonScroll.js"></script>
+    <script type="text/javascript">
+    $(function () {
+      $('section').horizon();
+    });
+    </script>
+    <script src="fakeLoader.js-master\fakeLoader.min.js"></script>
+    <script>
+        $("#fakeLoader").fakeLoader({
+          timeToHide:3000, //Time in milliseconds for fakeLoader disappear
+          zIndex:999, // Default zIndex
+          spinner:"spinner2",//Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7'
+          bgColor:"#000", //Hex, RGB or RGBA colors
+          // imagePath:"yourPath/customizedImage.gif" //If you want can you insert your custom image
+        });
+    </script>
   </body>
