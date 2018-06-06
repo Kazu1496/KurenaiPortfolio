@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Passion+O');
 
 .main{
-  background-image: url("../photo/smartphoneback1.png");
+  background-image: url("../photo/back1.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -37,6 +37,6 @@
 
 .main--leftBox--text--1{
   margin-left:23vw;
-  font-size: 0.2vh;
+  font-size: 1.8vh;
   font-weight: bold;
 }
