@@ -21,10 +21,6 @@ header ul {
     list-style: none;
 }
 
-header ul li {
-    display: inline-block;
-    padding: 0 50px;
-}
 
 header ul a {
     text-decoration: none;
@@ -72,9 +68,9 @@ section {
 }
 
 .horizon-prev {
-    left: 20px;
+    left: 15px;
 }
 
 .horizon-next {
-    right: 20px;
+    right: 15px;
 }

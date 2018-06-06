@@ -1,6 +1,6 @@
 .main--movie{
   text-align: center;
-  padding: 10vh 0;
+  padding: 5.5vh 0;
 }
 
 .main--movie > p{
@@ -8,6 +8,6 @@
 }
 
 .movie1{
-  width: 35vw;
-  height: 30vh;
+  width: 50vw;
+  height: 45vh;
 }

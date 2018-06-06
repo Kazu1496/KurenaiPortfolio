@@ -20,11 +20,11 @@ header ul {
     padding: 0;
     list-style: none;
 }
-
+/*
 header ul li {
     display: inline-block;
     padding: 0 20px;
-}
+} */
 
 header ul a {
     text-decoration: none;

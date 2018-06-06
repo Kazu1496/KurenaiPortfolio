@@ -30,6 +30,14 @@
   margin: 10vh 0;
 }
 
+.main--leftBox--text > h1{
+    margin-left: 15vw;
+}
+
+.main--leftBox--text > p{
+    margin-left: 15vw;
+}
+
 .main--leftBox--text--1 {
   margin-left: 15vw;
   text-align: left;

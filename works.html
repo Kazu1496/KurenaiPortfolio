@@ -6,7 +6,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <meta name="description" content="Kurenaiのポートフォリオサイトです。">
-        
+
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
@@ -15,34 +15,27 @@
 
     <title>Kurenai's Portfolio</title>
 
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/stylesabout.css">
-    <link rel="stylesheet" href="css/discography.css">
-    <link rel="stylesheet" href="css/works.css">
+    <link rel="stylesheet" href="css/smartphone.css" media="screen and (max-width:750px)">
+    <link rel="stylesheet" href="css/smartphone-works.css" media="screen and (max-width:750px)">
+
+    <link rel="stylesheet" href="css/styles.css" media="screen and (min-width:751px)">
+    <link rel="stylesheet" href="css/stylesabout.css" media="screen and (min-width:751px)">
+    <link rel="stylesheet" href="css/discography.css" media="screen and (min-width:751px)">
+    <link rel="stylesheet" href="css/works.css" media="screen and (min-width:751px)">
     <link href="jquery.horizonScroll.js-master/css/slidestylediscography.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="fakeLoader.js-master/fakeLoader.css">
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script type="text/javascript" src="jquery.horizonScroll.js-master/jquery.touchSwipe.js"></script>
-    <script type="text/javascript" src="jquery.horizonScroll.js-master/jquery.horizonScroll.js"></script>
   </head>
   <body>
     <div id="fakeLoader"></div>
-
-    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="fakeLoader.js-master/fakeLoader.min.js"></script>
-    <script>
-        $("#fakeLoader").fakeLoader({
-          timeToHide:3000, //Time in milliseconds for fakeLoader disappear
-          zIndex:999, // Default zIndex
-          spinner:"spinner2",//Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7'
-          bgColor:"#000", //Hex, RGB or RGBA colors
-          // imagePath:"yourPath/customizedImage.gif" //If you want can you insert your custom image
-        });
-    </script>
     <!-- header -->
     <header>
-      <nav>
-        <ul>
+      <nav class="menu clearfix">
+        <div class="menu1"></div>
+        <div class="menu2"></div>
+        <div class="menu3"></div>
+      </nav>
+      <div>
+        <ul id="menu">
           <li>
             <a href="/">
               HOME
@@ -74,26 +67,26 @@
             </a>
           </li> -->
         </ul>
-      </nav>
+      </div>
     </header>
     <!-- main -->
-    <div class="horizon-prev"><img src="jquery.horizonScroll.js-master/images/l-arrow.png"></div>
-    <div class="horizon-next"><img src="jquery.horizonScroll.js-master/images/r-arrow.png"></div>
+    <div class="horizon-prev"><img src="jquery.horizonScroll.js-master/images/l-arrow.png" height="30px"></div>
+    <div class="horizon-next"><img src="jquery.horizonScroll.js-master/images/r-arrow.png" height="30px"></div>
 
     <section data-role="section" id="section-section1">
       <div class="main">
         <div class="main--boxArea">
           <div class="main--leftBox--text">
-            <div class="main--leftBox--text--2">
               <h1>優月心菜</h1>
-              <p>「ぬけがら」収録</p>
-              <p>「ぬけがら」</p>
-              <p>＜担当＞ギターアレンジ、レコーディング</p>
-              <p>　</p>
-              <p>■楽曲配信ページ</p>
-              <a href="https://www.tunecore.co.jp/artist?id=203918" target="_blank">
-                <p>-https://www.tunecore.co.jp/artist?id=203918</p>
-              </a>
+              <p>＜ぬけがら　収録＞</p>
+              <div class="main--leftBox--text--2">
+                <p>■曲名　ぬけがら</p>
+                <p>■担当　ギターアレンジ,レコーディング</p>
+                <p>　</p>
+                <p>■楽曲配信ページ</p>
+                <a href="https://www.tunecore.co.jp/artist?id=203918" target="_blank">
+                  <p>-https://www.tunecore.co.jp/artist?id=203918</p>
+                </a>
             </div>
           </div>
           <div class="main--rightBox--jacket">
@@ -109,11 +102,14 @@
       <div class="main">
         <div class="main--boxArea">
           <div class="main--leftBox--text">
+            <h1>囲碁健康体操</h1>
+            <p>＜Igo Bass Live用楽曲＞</p>
             <div class="main--leftBox--text--2">
-              <h1>囲碁健康体操</h1>
-              <p>「Igo Bass Live」用楽曲</p>
-              <p>「Breaking!」「Fusion LaBo」「Slow up」</p>
-              <p>＜担当＞作曲・編曲（上記3曲）</p>
+              <p>■曲名　[Breaking!]　[Fusion LaBo]</p>
+              <p>　　　　[Slow up]</p>
+              <p>■担当　作編曲・Mix/Mastering</p>
+              <p>　</p>
+              <p>　</p>
             </div>
           </div>
           <div class="main--rightBox--jacket">
@@ -129,16 +125,16 @@
       <div class="main">
         <div class="main--boxArea">
           <div class="main--leftBox--text">
-            <div class="main--leftBox--text--2">
               <h1>ひこまろ</h1>
-              <p>「ホラガイ」収録</p>
-              <p>「せかい」</p>
-              <p>＜担当＞ギターソロ</p>
-              <p>　</p>
-              <p>■視聴用ページ</p>
-              <a href="http://www.nicovideo.jp/watch/sm30610487" target="_blank">
-                <p>http://www.nicovideo.jp/watch/sm30610487</p>
-              </a>
+              <p>＜ホラガイ　収録＞</p>
+              <div class="main--leftBox--text--2">
+                <p>■曲名　せかい</p>
+                <p>■担当　ギターソロ</p>
+                <p>　</p>
+                <p>■楽曲配信ページ</p>
+                <a href="http://www.nicovideo.jp/watch/sm30610487" target="_blank">
+                  <p>http://www.nicovideo.jp/watch/sm30610487</p>
+                </a>
             </div>
           </div>
           <div class="main--rightBox--jacket">
@@ -154,16 +150,16 @@
       <div class="main">
         <div class="main--boxArea">
           <div class="main--leftBox--text">
-            <div class="main--leftBox--text--3">
               <h1>WHITEFISTS</h1>
-              <p>「Nataria:Code」収録</p>
-              <p>「World Requiem」</p>
-              <p>＜担当＞ギターソロ</p>
-              <p>　</p>
-              <p>■視聴用ページ</p>
-              <a href="https://soundcloud.com/whitefists/world-requiem" target="_blank">
-                <p>https://soundcloud.com/whitefists/world-requiem</p>
-              </a>
+              <p>＜Nataria:Code 収録＞</p>
+              <div class="main--leftBox--text--2">
+                <p>■曲名　World Requiem</p>
+                <p>■担当　ギターソロ</p>
+                <p>　</p>
+                <p>■楽曲配信ページ</p>
+                <a href="https://soundcloud.com/whitefists/world-requiem" target="_blank">
+                  <p>https://soundcloud.com/whitefists/world-requiem</p>
+                </a>
             </div>
           </div>
           <div class="main--rightBox--jacket">
@@ -174,15 +170,6 @@
         </div>
       </div>
     </section>
-
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script type="text/javascript" src="jquery.horizonScroll.js-master/jquery.touchSwipe.js"></script>
-    <script type="text/javascript" src="jquery.horizonScroll.js-master/jquery.horizonScroll.js"></script>
-    <script type="text/javascript">
-    $(function () {
-    	$('section').horizon();
-    });
-    </script>
     <!-- footer -->
     <footer>
       <a href="https://twitter.com/kurenai1496" target="_blank">
@@ -196,4 +183,23 @@
       </a>
       <p>Copyright(c) Kurenai</p>
     </footer>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascript/menu.js" media="screen and (max-width:750px)"></script>
+    <script src="fakeLoader.js-master/fakeLoader.min.js"></script>
+    <script>
+        $("#fakeLoader").fakeLoader({
+          timeToHide:3000, //Time in milliseconds for fakeLoader disappear
+          zIndex:999, // Default zIndex
+          spinner:"spinner2",//Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7'
+          bgColor:"#000", //Hex, RGB or RGBA colors
+          // imagePath:"yourPath/customizedImage.gif" //If you want can you insert your custom image
+        });
+    </script>
+    <script type="text/javascript" src="jquery.horizonScroll.js-master/jquery.touchSwipe.js"></script>
+    <script type="text/javascript" src="jquery.horizonScroll.js-master/jquery.horizonScroll.js"></script>
+    <script type="text/javascript">
+    $(function () {
+    	$('section').horizon();
+    });
+    </script>
   </body>
