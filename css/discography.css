@@ -1,3 +1,14 @@
+.main--leftBox--text > h1{
+  font-family: 'Passion One', cursive;
+  font-size: 8vh;
+}
+
+.main--leftBox--text > p{
+  font-family: 'Passion One', cursive;
+  font-size: 2.5vh;
+  margin-bottom: 7px;
+}
+
 .jacket{
   width: 35vw;
   height: 60vh;

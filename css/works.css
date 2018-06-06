@@ -1,3 +1,11 @@
+.main--leftBox--text >h1{
+  font-size: 6vh;
+}
+
+.main--leftBox--text >p{
+  font-size: 2.4vh;
+}
+
 .main--leftBox--text--2>h1{
   font-size: 6vh;
 }
@@ -17,5 +25,45 @@
   margin-left: 15vw;
   margin-top: 10vh;
   margin-bottom: : 10vh;
+  text-align: left;
+}
+
+.jacket1{
+  width: 35vw;
+  height: 40vh;
+  padding-top: 10vh;
+}
+
+.jacket2{
+  width: 25vw;
+  height: 40vh;
+  padding-top: 10vh;
+  float: right;
+}
+
+.main--rightBox--jacket{
+  width: 50vw;
+  float: right;
+  margin: 10vh 0;
+}
+.main--rightBox--jacket--1{
+  margin-right: 15vw;
+}
+.main--leftBox--text {
+  width: 50vw;
+  float: left;
+  margin: 20vh 0;
+}
+
+.main--leftBox--text > h1{
+    margin-left: 15vw;
+}
+
+.main--leftBox--text > p{
+    margin-left: 15vw;
+}
+
+.main--leftBox--text--1 {
+  margin-left: 15vw;
   text-align: left;
 }

@@ -15,7 +15,7 @@
   display: none;
 }
 
-.main h1{
+.main--boxArea--about > h1{
   font-family: 'Passion One', cursive;
   font-size: 10vh;
 }
