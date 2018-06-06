@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Passion+O');
 
 .main{
-  background-image: url("../photo/back1.png");
+  background-image: url("../photo/smartphoneback1.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -14,7 +14,7 @@
 .jacket{
   width: 50vw;
   height: 30vh;
-  padding-top: 2vh;
+  padding-top: 4vh;
   margin: 0 23vw;
 }
 
@@ -28,15 +28,15 @@
 }
 .main--leftBox--text > p{
   text-align: center;
-    padding-bottom: 1.3vh;
+  padding-bottom: 1.3vh;
   font-family: 'Passion One', cursive;
 }
 .main--leftBox--text h1{
-  font-size: 15vw;
+  font-size: 13vw;
 }
 
 .main--leftBox--text--1{
-  margin: 0 23vw;
-  font-size: 2.5vw;
+  margin-left:23vw;
+  font-size: 0.2vh;
   font-weight: bold;
 }
