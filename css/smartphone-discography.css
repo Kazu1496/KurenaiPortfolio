@@ -12,10 +12,10 @@
 }
 
 .jacket{
-  width: 40vw;
-  height: 25vh;
-  padding-top: 4vh;
-  margin: 0 30vw;
+  width: 50vw;
+  height: 30vh;
+  padding-top: 2vh;
+  margin: 0 25vw;
 }
 
 .main--boxArea{
@@ -36,7 +36,7 @@
 }
 
 .main--leftBox--text--1{
-  margin-left:23vw;
-  font-size: 1.8vh;
+  margin-left:25vw;
+  font-size: 1.5vh;
   font-weight: bold;
 }
