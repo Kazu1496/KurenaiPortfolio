@@ -2,6 +2,10 @@
   text-align: center;
   padding: 5.5vh 0;
 }
+.main--movie>h1{
+  font-family: 'Passion One', cursive;
+  font-size: 8vh;
+}
 
 .main--movie > p{
   font-size: 2.5vh;
