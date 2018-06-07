@@ -28,9 +28,9 @@ z-index: 9999;
 }
 
 #menu li{
-  height: calc(100vh/5);
-  margin: 1.3vh 0;
-  font-size: 40px;
+  height: calc(100vh/10);
+  margin: 8vh 0;
+  font-size: 30px;
   font-family: 'Passion One', cursive;
   text-align: center;
 }
