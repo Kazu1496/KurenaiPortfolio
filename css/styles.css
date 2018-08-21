@@ -15,13 +15,12 @@ header {
   position: fixed;
   top: 0px;
   width: 100%;
-  height: 30px;
-  padding: 10px 0;
+  height: 80px;
   background-color: black;
+  z-index: 10;
 }
 
 header ul{
-  height: 100%;
   width: 100%;
   text-align: center;
 }
@@ -38,7 +37,7 @@ li{
   padding: 0 20px;
   font-size: 20px;
   font-family: 'Passion One', cursive;
-  line-height: 30px;
+  line-height: 80px;
 }
 
 header li > a{
@@ -48,7 +47,7 @@ header li > a{
 }
 
 header li > a:hover{
-  color: royalblue;
+  opacity: 0.6;
 }
 
 .current {
@@ -57,35 +56,26 @@ header li > a:hover{
 
 footer{
   position: fixed;
-  bottom: 0px;
   width: 100%;
+  height:80px;
+  bottom:0;
   text-align: center;
   background-color: #000;
-}
-
-footer h1{
-  font-size: 30px;
-  font-weight: bold;
+  z-index: 10;
 }
 
 footer p{
-  font-size: 20px;
+  margin: 0;
+  font-size: 13px;
+  color: lightgray;
+  bottom:0;
 }
 
 footer a{
   display: inline-block;
-  padding: 5px 10px;
-}
-
-footer p{
-  font-size: 13px;
-  color: lightgray;
+  padding: 20px 15px 15px 15px;
 }
 
 footer a:hover{
   opacity: 0.6;
-}
-
-footer p{
-  margin: 0 0 0 0;
 }

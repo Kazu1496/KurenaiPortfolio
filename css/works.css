@@ -1,68 +1,96 @@
-.main--leftBox--text >h1{
-  font-size: 6vh;
+.main{
+  background-image: url("../photo/back1-2.png");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  color: #000;
+  position: relative;
 }
 
-.main--leftBox--text >p{
-  font-size: 2.4vh;
+.main::after{
+  clear: both;
+  content: "";
+  display: none;
 }
 
-.main--leftBox--text--2>h1{
-  font-size: 6vh;
+.main--boxArea{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translateY(-50%) translateX(-50%);
+  -webkit- transform: translateY(-50%) translateX(-50%);
+  width:100%;
+  height:350px;
 }
 
-.main--leftBox--text--3>h1{
-  font-size: 8vh;
+.box{
+  float:left;
 }
 
-.main--leftBox--text--2{
-  margin-left: 15vw;
-  margin-bottom: : 10vh;
-  text-align: left;
+.main--leftBox--text--ja{
+  width:50%;
+  padding-left: 250px;
 }
 
-.main--leftBox--text--3{
-  margin-left: 15vw;
-  margin-top: 10vh;
-  margin-bottom: : 10vh;
-  text-align: left;
+.main--leftBox--text--ja > h1{
+  font-family: 'Passion One', cursive;
+  font-size: 55px;
 }
 
-.jacket1{
-  width: 35vw;
-  height: 40vh;
-  padding-top: 10vh;
+.main--leftBox--text--ja > p{
+  font-family: 'Passion One', cursive;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
 }
 
-.jacket2{
-  width: 25vw;
-  height: 40vh;
-  padding-top: 10vh;
-  float: right;
-}
-
-.main--rightBox--jacket{
-  width: 50vw;
-  float: right;
-  margin: 10vh 0;
-}
-.main--rightBox--jacket--1{
-  margin-right: 15vw;
-}
-.main--leftBox--text {
-  width: 50vw;
-  float: left;
-  margin: 20vh 0;
+.main--leftBox--text{
+  width: 50%;
+  padding-left: 250px;
 }
 
 .main--leftBox--text > h1{
-    margin-left: 15vw;
+  font-family: 'Passion One', cursive;
+  font-size: 70px;
 }
 
 .main--leftBox--text > p{
-    margin-left: 15vw;
+  font-family: 'Passion One', cursive;
+  font-size: 30px;
+  margin-bottom: 30px;
 }
 
-.main--leftBox--text--1 {
-  margin-left: 15vw;
-  text-align: left;
+.main--leftBox--text--2 > p{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.main--leftBox--text--2 > a{
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.main--rightBox--jacket--1{
+  width: 50%;
+  float:right;
+  padding-right: 250px;
+}
+
+.main--rightBox--jacket--2{
+  width: 50%;
+  float:right;
+  padding-right: 250px;
+}
+
+.jacket1{
+  width: auto;
+  height: 350px;
+  float:right;
+}
+
+.jacket2{
+  width: 350px;
+  height: 350px;
+  float:right;
 }

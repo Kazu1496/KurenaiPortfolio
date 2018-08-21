@@ -1,11 +1,9 @@
 .main{
   background-image: url("../photo/back1-2.png");
-  background-repeat: no-repeat;
   background-size: cover;
-  /* background-attachment: fixed; */
-  width: 100vw;
-  height: 80vh;
-  margin: 10vh 0;
+  width: 100%;
+  height: 100%;
+  margin-top:80px;
   color: #000;
 }
 
@@ -18,6 +16,7 @@
 .main--boxArea--about > h1{
   font-family: 'Passion One', cursive;
   font-size: 10vh;
+  margin:20px 0;
 }
 
 .main p{
@@ -26,13 +25,14 @@
 }
 
 .main--boxArea {
-  width: 100vw;
-  height: 80vh;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 100px;
 }
 
 .main--boxArea--about{
-    text-align: center;
-    padding: 10px 0;
+  text-align: center;
+  padding: 10px 0;
 }
 
 .main--boxArea--about > h1{
@@ -40,31 +40,17 @@
   font-size: 8vh;
 }
 
-#text{
-    margin: 0 0 0 35vw;
+.text-boxArea{
+  text-align: center;
+  width:100%;
+  margin:20px 0;
 }
 
-.main--leftBox {
-  width: 50vw;
-  float: left;
-  margin: 25vh 0;
-}
-
-.main--leftBox--body {
-  margin-left: 15vw;
+.text{
+  display:inline-block;
   text-align: left;
 }
 
-.main--rightBox {
-  width: 50vw;
-  float: right;
-  margin: 25vh 0;
-}
-
-.main--rightBox--body {
-  margin-right: 15vw;
-  text-align: right;
-}
 .icon{
   border-radius: 50%;
   border: 5px solid brack;

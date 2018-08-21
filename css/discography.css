@@ -1,55 +1,67 @@
+.main{
+  background-image: url("../photo/back1-2.png");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  color: #000;
+  position: relative;
+}
+
+.main::after{
+  clear: both;
+  content: "";
+  display: none;
+}
+
+.main--boxArea{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translateY(-55%) translateX(-50%);
+  -webkit- transform: translateY(-50%) translateX(-50%);
+  width:80%;
+  height:425px;
+  /* background-color: white; */
+}
+
+.box{
+  float:left;
+}
+
+.main--leftBox--text{
+  width:50%;
+  padding-left: 100px;
+}
+
 .main--leftBox--text > h1{
   font-family: 'Passion One', cursive;
-  font-size: 10vh;
+  font-size: 60px;
 }
 
 .main--leftBox--text > p{
   font-family: 'Passion One', cursive;
-  font-size: 3.5vh;
+  font-size: 30px;
   margin-bottom: 7px;
 }
 
-.jacket{
-  width: 35vw;
-  height: 60vh;
+.main--leftBox--text--1 > p{
+  font-size: 18px;
+  font-weight: bold;
 }
 
-.jacket1{
-  width: 35vw;
-  height: 40vh;
-  padding-top: 10vh;
+.main--leftBox--text--1 > a{
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
 }
 
-.jacket2{
-  width: 25vw;
-  height: 40vh;
-  padding-top: 10vh;
-  float: right;
-}
-
-.main--rightBox--jacket{
-  width: 50vw;
-  float: right;
-  margin: 10vh 0;
-}
 .main--rightBox--jacket--1{
-  margin-right: 15vw;
-}
-.main--leftBox--text {
-  width: 50vw;
-  float: left;
-  margin: 10vh 0;
+  width: 50%;
+  padding-right: 100px;
 }
 
-.main--leftBox--text > h1{
-    margin-left: 15vw;
-}
-
-.main--leftBox--text > p{
-    margin-left: 15vw;
-}
-
-.main--leftBox--text--1 {
-  margin-left: 15vw;
-  text-align: left;
+.jacket{
+  width: 425px;
+  height: auto;
+  float: right;
 }
