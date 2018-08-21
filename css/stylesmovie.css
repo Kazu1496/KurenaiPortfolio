@@ -14,9 +14,10 @@
   transform:translateY(-50%) translateX(-50%);
   -webkit- transform: translateY(-50%) translateX(-50%);
   width:80%;
-  height:65%;
+  height:85%;
   text-align: center;
 }
+
 .main--movie>h1{
   font-family: 'Passion One', cursive;
   font-size: 8vh;
