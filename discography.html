@@ -15,11 +15,11 @@
 
     <title>Kurenai-works</title>
 
-    <link rel="stylesheet" href="/css/smartphone.css" media="screen and (max-width:770px)">
-    <link rel="stylesheet" href="/css/smartphone-discography.css" media="screen and (max-width:770px)">
+    <link rel="stylesheet" href="css/smartphone.css" media="screen and (max-width:770px)">
+    <link rel="stylesheet" href="css/smartphone-discography.css" media="screen and (max-width:770px)">
 
-    <link rel="stylesheet" href="/css/styles.css" media="screen and (min-width:771px)">>
-    <link rel="stylesheet" href="/css/discography.css" media="screen and (min-width:771px)">>
+    <link rel="stylesheet" href="css/styles.css" media="screen and (min-width:771px)">>
+    <link rel="stylesheet" href="css/discography.css" media="screen and (min-width:771px)">>
     <link href="jquery.horizonScroll.js-master/css/slidestylediscography.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="fakeLoader.js-master/fakeLoader.css">
   </head>
@@ -125,13 +125,14 @@
     <script type="text/javascript" src="javascript/menu.js" media="screen and (max-width:770px)"></script>
     <script src="fakeLoader.js-master/fakeLoader.min.js"></script>
     <script>
+      $(document).ready(function(){
         $("#fakeLoader").fakeLoader({
-          timeToHide:3000, //Time in milliseconds for fakeLoader disappear
           zIndex:10000, // Default zIndex
           spinner:"spinner2",//Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7'
           bgColor:"#000", //Hex, RGB or RGBA colors
           // imagePath:"yourPath/customizedImage.gif" //If you want can you insert your custom image
         });
+      });
     </script>
     <script type="text/javascript" src="jquery.horizonScroll.js-master/jquery.touchSwipe.js"></script>
     <script type="text/javascript" src="jquery.horizonScroll.js-master/jquery.horizonScroll.js"></script>

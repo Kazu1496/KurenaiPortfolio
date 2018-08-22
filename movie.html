@@ -13,11 +13,11 @@
     <link rel="manifest" href="favicon/site.webmanifest">
     <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
 
-    <link rel="stylesheet" href="/css/smartphone.css" media="screen and (max-width:770px)">
-    <link rel="stylesheet" href="/css/smartphone-movie.css" media="screen and (max-width:770px)">
-    <link rel="stylesheet" href="/css/styles.css" media="screen and (min-width:771px)">
-    <link rel="stylesheet" href="/css/stylesabout.css" media="screen and (min-width:771px)">
-    <link rel="stylesheet" href="/css/stylesmovie.css" media="screen and (min-width:771px)">
+    <link rel="stylesheet" href="css/smartphone.css" media="screen and (max-width:770px)">
+    <link rel="stylesheet" href="css/smartphone-movie.css" media="screen and (max-width:770px)">
+    <link rel="stylesheet" href="css/styles.css" media="screen and (min-width:771px)">
+    <link rel="stylesheet" href="css/stylesabout.css" media="screen and (min-width:771px)">
+    <link rel="stylesheet" href="css/stylesmovie.css" media="screen and (min-width:771px)">
 
     <title>Kurenai-works</title>
     <link href="jquery.horizonScroll.js-master/css/slidestyle.css" rel="stylesheet" type="text/css">
@@ -175,12 +175,13 @@
     </script>
     <script src="fakeLoader.js-master\fakeLoader.min.js"></script>
     <script>
+      $(document).ready(function(){
         $("#fakeLoader").fakeLoader({
-          timeToHide:3000, //Time in milliseconds for fakeLoader disappear
           zIndex:10000, // Default zIndex
           spinner:"spinner2",//Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7'
           bgColor:"#000", //Hex, RGB or RGBA colors
           // imagePath:"yourPath/customizedImage.gif" //If you want can you insert your custom image
         });
+      });
     </script>
   </body>
