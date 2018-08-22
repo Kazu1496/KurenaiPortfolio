@@ -175,13 +175,15 @@
     </script>
     <script src="fakeLoader.js-master\fakeLoader.min.js"></script>
     <script>
-      $(document).ready(function(){
-        $("#fakeLoader").fakeLoader({
-          zIndex:10000, // Default zIndex
-          spinner:"spinner2",//Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7'
-          bgColor:"#000", //Hex, RGB or RGBA colors
-          // imagePath:"yourPath/customizedImage.gif" //If you want can you insert your custom image
-        });
+      $("#fakeLoader").fakeLoader({
+        timeToHide:20000,
+        zIndex:10000, // Default zIndex
+        spinner:"spinner2",//Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7'
+        bgColor:"#000", //Hex, RGB or RGBA colors
+        // imagePath:"yourPath/customizedImage.gif" //If you want can you insert your custom image
+      });
+      $(window).load(function(){
+        $("#fakeLoader").fadeOut(1000);
       });
     </script>
   </body>
