@@ -46,11 +46,15 @@
 
 .main--leftBox--text--1 > p{
   font-size: 18px;
+  font-family: "San Francisco", BlinkMacSystemFont, 游ゴシック, "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, "Noto Sans Japanese", "Noto Sans CJK JP", sans-serif;
+  font-weight: bold;
   font-weight: bold;
 }
 
 .main--leftBox--text--1 > a{
   font-size: 18px;
+  font-weight: bold;
+  font-family: "San Francisco", BlinkMacSystemFont, 游ゴシック, "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, "Noto Sans Japanese", "Noto Sans CJK JP", sans-serif;
   font-weight: bold;
   text-decoration: none;
 }
@@ -64,4 +68,5 @@
   width: 425px;
   height: auto;
   float: right;
+  box-shadow: 10px 10px 0 rgba(0,0,0,0.5);
 }
