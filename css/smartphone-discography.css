@@ -4,7 +4,6 @@
   background-image: url("../photo/back1-2.png");
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-attachment: fixed; */
   width: 100vw;
   height: 80vh;
   margin: 5vh 0;
@@ -21,16 +20,19 @@
 .main--boxArea{
   height: 80vh;
 }
+
 .main--leftBox--text > h1{
   text-align: center;
   padding-top: 1.3vh;
   font-family: 'Passion One', cursive;
 }
+
 .main--leftBox--text > p{
   text-align: center;
   padding-bottom: 1.3vh;
   font-family: 'Passion One', cursive;
 }
+
 .main--leftBox--text h1{
   font-size: 13vw;
 }
