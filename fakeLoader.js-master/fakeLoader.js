@@ -16,7 +16,7 @@
             top:'0px',  // Default Top value
             left:'0px', // Default Left value
             width:'100%', // Default width
-            height:'100%', // Default Height
+            height:'80%', // Default Height
             zIndex: '999',  // Default zIndex
             bgColor: '#2ecc71', // Default background color
             spinner:'spinner2', // Default Spinner

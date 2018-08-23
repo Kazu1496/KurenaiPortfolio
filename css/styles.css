@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+#fakeLoader{
+  margin:80px 0;
+}
+
 body {
   color: #333;
   margin: 0px;
