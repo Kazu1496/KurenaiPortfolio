@@ -3,10 +3,10 @@
   background-repeat: no-repeat;
   background-size:cover;
   /* background-attachment: fixed; */
-  width: 100vw;
-  height: 80vh;
-  margin: 8.5vh 0;
+  width: 100%;
+  height: 100%;
   color: #000;
+  position: relative;
 }
 
 .main::after{
@@ -15,50 +15,65 @@
   display: none;
 }
 
-.main--leftBox--text{
-  padding-top: 10vh;
+.main--boxArea{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translateY(-50%) translateX(-50%);
+  -webkit- transform: translateY(-50%) translateX(-50%);
+  width:100%;
+  height:450px;
 }
 
 .main--leftBox--text > h1{
+  font-family: 'Passion One', cursive;
   text-align: center;
   font-weight: bold;
-  font-size: 5vh;
+  font-size: 60px;
 }
 
 .main--leftBox--text > p{
+  font-family: 'Passion One', cursive;
   font-weight: bold;
   text-align: center;
-  font-size: 2vh;
+  font-size: 25px;
 }
-.main--leftBox--text--2{
+
+.main--leftBox--text--ja{
+  font-family: "San Francisco", BlinkMacSystemFont, 游ゴシック, "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, "Noto Sans Japanese", "Noto Sans CJK JP", sans-serif;
+  text-align: center;
   font-weight: bold;
-  font-size: 2vh;
+  font-size: 20px;
+}
+
+.main--leftBox--text--ja h1{
+  font-size: 40px;
+}
+
+.main--leftBox--text--2{
+  font-family: "San Francisco", BlinkMacSystemFont, 游ゴシック, "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, "Noto Sans Japanese", "Noto Sans CJK JP", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
   padding-top: 1vh;
   margin-bottom: : 10vh;
   margin-left: 25vw;
   text-align: left;
 }
 
-.main--leftBox--text--2 > a{
-  font-size: 1.5vh;
-}
-
-.main--leftBox--text--3>h1{
-  font-weight: bold;
-  font-size: 3vh;
-}
-
-
 .jacket1{
-  height: 25vh;
-  width: 65vw;
-  margin: 4vh 17.5vw;
+  height: 200px;
+  width: auto;
+  margin-top: 10px;
   box-shadow: 4px 4px 4px;
 }
 
 .jacket2{
-  height: 28vh;
-  width: 50vw;
-  margin: 4vh 25vw;
+  height: 200px;
+  width: auto;
+  margin-top: 10px;
   box-shadow: 4px 4px 4px;
+}
+
+.main--rightBox--jacket{
+  text-align: center;
 }

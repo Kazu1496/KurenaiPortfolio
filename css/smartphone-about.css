@@ -2,10 +2,9 @@
   background-image: url("../photo/back1-2.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
-  width: 100vw;
-  height: 80vh;
-  margin: 8.5vh 0;
+  width: 100%;
+  height: 100%;
+  margin: 60px 0;
   color: #000;
 }
 
@@ -15,36 +14,38 @@
   display: none;
 }
 
-.main h1{
-  font-family: 'Passion One', cursive;
-  font-size: 10vh;
-  padding-top: 5vh;
-}
-
 .main p{
   font-weight: bold;
-  font-size: 1.75vh;
+  font-size: 1.5vh;
 }
 
 .main--boxArea {
-  width: 100vw;
-  height: 80vh;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 100px;
 }
 
 .main--boxArea--about{
-    text-align: center;
-    padding: 2vh 0;
+  text-align: center;
+  padding: 2vh 0;
 }
 
 .main--boxArea--about > h1{
   font-family: 'Passion One', cursive;
-  font-size: 8vh;
+  font-size: 10vh;
+  margin-top: 10%;
 }
 
-#text{
-    margin: 0 8vw;
+.text-boxArea{
+  text-align: center;
+  width:100%;
+  margin:10px 0;
 }
 
+.text{
+  display:inline-block;
+  text-align: left;
+}
 .icon{
   border-radius: 50%;
   border: 5px solid brack;

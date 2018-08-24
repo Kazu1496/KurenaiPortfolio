@@ -4,41 +4,52 @@
   background-image: url("../photo/back1-2.png");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100vw;
-  height: 80vh;
-  margin: 5vh 0;
+  width: 100%;
+  height: 100%;
   color: #000;
 }
 
 .jacket{
-  width: 50vw;
-  height: 30vh;
-  padding-top: 3vh;
-  margin: 0 25vw;
+  width: 200px;
+  height: auto;
 }
 
-.main--boxArea{
-  height: 80vh;
+.main--rightBox--jacket--1{
+  text-align: center;
 }
+.main--boxArea{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translateY(-50%) translateX(-50%);
+  -webkit- transform: translateY(-50%) translateX(-50%);
+  width:80%;
+  height:530px;
+}
+
 
 .main--leftBox--text > h1{
   text-align: center;
-  padding-top: 1.3vh;
   font-family: 'Passion One', cursive;
+  font-size: 60px;
 }
 
 .main--leftBox--text > p{
   text-align: center;
-  padding-bottom: 1.3vh;
   font-family: 'Passion One', cursive;
+  font-size:20px;
 }
 
-.main--leftBox--text h1{
-  font-size: 13vw;
+.main--leftBox--text--1 > a{
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .main--leftBox--text--1{
-  margin-left:25vw;
-  font-size: 1.5vh;
+  font-family: "San Francisco", BlinkMacSystemFont, 游ゴシック, "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, "Noto Sans Japanese", "Noto Sans CJK JP", sans-serif;
+  font-size: 13px;
   font-weight: bold;
+  text-align: center;
+  margin-bottom:10px;
 }
