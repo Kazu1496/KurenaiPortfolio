@@ -22,38 +22,38 @@
   transform:translateY(-50%) translateX(-50%);
   -webkit- transform: translateY(-50%) translateX(-50%);
   width:100%;
-  height:450px;
+  height:380px;
 }
 
 .main--leftBox--text > h1{
   font-family: 'Passion One', cursive;
   text-align: center;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 38px;
 }
 
 .main--leftBox--text > p{
   font-family: 'Passion One', cursive;
   font-weight: bold;
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .main--leftBox--text--ja{
   font-family: "San Francisco", BlinkMacSystemFont, 游ゴシック, "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, "Noto Sans Japanese", "Noto Sans CJK JP", sans-serif;
   text-align: center;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .main--leftBox--text--ja h1{
-  font-size: 40px;
+  font-size: 25px;
 }
 
 .main--leftBox--text--2{
   font-family: "San Francisco", BlinkMacSystemFont, 游ゴシック, "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, "Noto Sans Japanese", "Noto Sans CJK JP", sans-serif;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 13px;
   padding-top: 1vh;
   margin-bottom: : 10vh;
   margin-left: 25vw;
@@ -61,14 +61,14 @@
 }
 
 .jacket1{
-  height: 200px;
+  height: 150px;
   width: auto;
   margin-top: 10px;
   box-shadow: 4px 4px 4px;
 }
 
 .jacket2{
-  height: 200px;
+  height: 150px;
   width: auto;
   margin-top: 10px;
   box-shadow: 4px 4px 4px;
