@@ -64,7 +64,7 @@ section {
     position: fixed;
     top: 50vh;
     margin-top: -24px;
-    z-index: 9997;
+    z-index: 1000;
 }
 
 .horizon-prev {
